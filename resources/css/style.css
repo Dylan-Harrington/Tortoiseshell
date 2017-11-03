@@ -66,3 +66,94 @@ header p {
   padding-left: 1rem;
   font-size: 1rem;
 }
+
+/* This is the main part of the webpage */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* This is the icon row */
+
+#icon_row {
+  display: flex;
+  height: 8rem;
+  margin: 3rem 0;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3rem;
+  justify-content: space-between;
+}
+
+.icon p {
+  text-align: center;
+  line-height: 1.4rem;
+}
+
+.icon_one img {
+  width: 3.5rem;
+}
+
+.icon_two img {
+  width: 5rem;
+}
+
+.icon_three img {
+  width: 5rem;
+}
+
+/* This is the info row */
+
+#info_row {
+  display: flex;
+  max-width: 960px;
+  width: 100%;
+  justify-content: center;
+}
+
+.info_box h4 {
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding: 0.9rem 0 0.9rem 1.5rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.info_box p {
+  line-height: 1.4rem;
+}
+
+.info_box {
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+/* This is the footer */
+
+footer {
+  background-color: azure;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.container_footer {
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  width: 100%;
+}
+
+.container_footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
