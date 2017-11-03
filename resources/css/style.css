@@ -67,6 +67,10 @@ header p {
   font-size: 1rem;
 }
 
+header h4 {
+  display: none;
+}
+
 /* This is the main part of the webpage */
 
 main {
@@ -156,4 +160,128 @@ footer {
 .container_footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
+}
+
+/* ~~~~~~~~~~~~THIS IS STYLING FOR MEDIUM SCREENS~~~~~~~~~~~~~~~~ */
+
+@media only screen and (max-width: 1041px) {
+
+  /* This is the eye_candy div*/
+
+  #eye_candy {
+    align-items: flex-end;
+    height: 22rem;
+  }
+
+  header {
+    margin-top: 0;
+    max-width: none;
+  }
+
+  #slogan {
+    font-size: 1.33rem;
+    margin: 5rem 2rem 0 0;
+    padding: 1.8rem 4rem;
+  }
+
+}
+
+/* ~~~~~~~~~~~~THIS IS STYLING FOR small SCREENS~~~~~~~~~~~~~~~~ */
+
+@media only screen and (max-width: 660px) {
+
+  /* This is the eye_candy div*/
+
+  #eye_candy {
+    height: 17rem;
+  }
+
+  #slogan {
+    width: 100%;
+    margin: 9rem 0 0 0;
+    padding: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  header p,
+  header ul {
+    display: none;
+  }
+
+  header h4 {
+    display: inherit;
+    padding-right: 2rem;
+  }
+
+  header img {
+    margin-right: auto;
+  }
+
+  /* This is the main part of the webpage */
+
+  main {
+    width: 100%;
+  }
+
+  /* This is the icon_row */
+
+  #icon_row {
+    flex-direction: column;
+    height: auto;
+    margin: 3.77rem 0;
+  }
+
+  .icon_two img,
+  .icon_three img {
+    margin-top: 2rem;
+  }
+
+  .icon p {
+    font-size: 0.77rem;
+    line-height: 1rem;
+    padding-top: .8rem;
+  }
+
+  /* This is the info_row */
+
+  #info_row {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .info_box {
+    width: inherit;
+    margin: 0 0 4rem 0;
+  }
+
+  .info_box h4 {
+    padding: 0.9rem 0;
+    width: inherit;
+    text-align: center;
+  }
+
+  .info_box p {
+    font-size: 0.77rem;
+    line-height: 1rem;
+    padding-left: .5rem;
+    max-width: 475px;
+    padding-right: .5rem;
+  }
+
+  /* This is the footer */
+
+  footer p {
+    display: none;
+  }
+
+  .container_footer {
+    justify-content: center;
+  }
+
+  .container_footer img {
+    height: 1.5rem;
+    padding: 4rem 0;
+  }
+
 }
