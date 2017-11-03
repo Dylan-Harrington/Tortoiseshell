@@ -188,7 +188,9 @@ footer {
 
 /* ~~~~~~~~~~~~THIS IS STYLING FOR small SCREENS~~~~~~~~~~~~~~~~ */
 
-@media only screen and (max-width: 660px) {
+/* @media only screen and (max-width: 660px) { */
+
+@media only screen and (max-width: 500px) {
 
   /* This is the eye_candy div*/
 
